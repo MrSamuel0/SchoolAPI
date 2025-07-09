@@ -1,5 +1,19 @@
 # SchoolAPI
 
-My first ASP.NET API, the api stack is .NET, ASP.NET, Pomelo EF core MySql, EF core, EF core tools, used Migrations to create the MySql database, No frontend, just using the SwaggerUi
+**SchoolAPI** is my first ASP.NET Core Web API project.
 
-The context is: a school, you have Teachers (not completly developed all functions, like the relation between teacher and student), Students (almost complete), SchoolReport and SchoolSubjects (theese two not completly developed, just the "post" actions).
+## 🔧 Tech Stack
+
+- **.NET** and **ASP.NET Core**
+- **Entity Framework Core** with **Pomelo MySQL provider**
+- **EF Core Tools** for database management using **Migrations**
+- **MySQL** as the database engine
+- No frontend – interaction is handled entirely through **Swagger UI**
+
+## 🏫 Project Context
+
+The application represents a basic school system. It includes the following entities:
+
+- **Teachers** – Partially implemented (relation with students still pending)
+- **Students** – Almost complete
+- **SchoolReport** and **SchoolSubjects** – Currently support only `POST` actions; remaining CRUD operations are under development
